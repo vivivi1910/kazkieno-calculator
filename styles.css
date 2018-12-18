@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#calculator-wrapper {
+    width: 50%;
+    margin: 50px auto;
+}
+
+#calculator-wrapper #answer {
+    background-color: #333;
+    height: 50px;
+    width: 100%;
+    text-align: right;
+    color: #ffffff;
+    font-size: 25px;
+}
+
+#calculator-wrapper .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    height: 200px;
+}
+
+#calculator-wrapper .container .numbers {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 75%;
+}
+
+#calculator-wrapper .container .numbers button {
+    width: 33.33%;
+}
+
+#calculator-wrapper .container .numbers .zero {
+    width: 66.6%;
+}
+
+#calculator-wrapper .container .numbers .equal {
+    width: 100%;
+    background-color: salmon;
+}
+
+#calculator-wrapper .container .actions {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 25%;
+}
+
+#calculator-wrapper .container .actions button {
+    width: 100%;
+    height: 20%;
+    background-color: lightblue;
+}
+
+#calculator-wrapper .container .actions .plus {
+    height: 40%;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table, td, th {
+    border: 1px solid;
+}
+/*# sourceMappingURL=style.css.map */
